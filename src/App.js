@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    console.log('Fetching data from Proxtera API...');
+    console.log('Sending callback data to Proxtera Platform...');
     const myHeaders = new Headers();
     myHeaders.append('api-key', process.env.REACT_APP_PROXTERA_API_KEY);
     myHeaders.append('Content-Type', 'application/json');
